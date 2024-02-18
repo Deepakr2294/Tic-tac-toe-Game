@@ -1,0 +1,31 @@
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .board {
+      grid-template-columns: repeat(3, 80px);
+    }
+  
+    .cell {
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+    }
+  }
+  @media (min-width: 600px) {
+    .cell {
+      width: 120px;
+      height: 120px;
+      color: #1e88e5;
+    }
+  
+    .game-container {
+      padding-top: 20%;
+    }
+  
+    .board {
+      display: grid; 
+      grid-gap: 10px;
+      grid-template-columns: repeat(3, 120px);
+      margin-left: 31%;
+    }
+  }
+  
